@@ -1137,7 +1137,7 @@
   (symbol (lib_id "Device:R") (at 88.9 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cd0d34d-400a-43d9-98f5-4ff5130727b8)
-    (property "Reference" "R1" (at 91.44 50.8 0)
+    (property "Reference" "R2" (at 91.44 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 91.44 53.34 0)
@@ -1154,7 +1154,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1163,7 +1163,7 @@
   (symbol (lib_id "Device:C") (at 213.36 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 157925a0-5813-4df9-be82-36f794bf0a01)
-    (property "Reference" "C6" (at 210.82 31.75 0)
+    (property "Reference" "C3" (at 210.82 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 214.63 36.83 0)
@@ -1180,7 +1180,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1214,7 +1214,7 @@
   (symbol (lib_id "Device:C") (at 229.87 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 226e81ef-233d-48b1-93e6-7d1c204cc0f0)
-    (property "Reference" "C2" (at 227.33 31.75 0)
+    (property "Reference" "C5" (at 227.33 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 231.14 36.83 0)
@@ -1231,7 +1231,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "C2") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1240,7 +1240,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 81.28 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cab141e-407d-4b7a-91f1-e05eddc286c7)
-    (property "Reference" "BOOT0" (at 77.978 41.91 90)
+    (property "Reference" "BOOT1" (at 77.978 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 77.978 44.45 90)
@@ -1256,7 +1256,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "BOOT0") (unit 1)
+          (reference "BOOT1") (unit 1)
         )
       )
     )
@@ -1265,7 +1265,7 @@
   (symbol (lib_id "Device:R") (at 115.57 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36aa4444-efbb-4686-8afd-b2f65249b98c)
-    (property "Reference" "R7" (at 110.49 76.2 90)
+    (property "Reference" "R4" (at 110.49 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 120.65 76.2 90)
@@ -1282,7 +1282,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "R7") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1291,7 +1291,7 @@
   (symbol (lib_id "power:GND") (at 238.76 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36d45eba-53bf-4cce-bf72-ee467193ab26)
-    (property "Reference" "#PWR04" (at 238.76 48.26 0)
+    (property "Reference" "#PWR012" (at 238.76 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 46.99 0)
@@ -1307,7 +1307,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1316,7 +1316,7 @@
   (symbol (lib_id "Connector:Conn_ARM_JTAG_SWD_10") (at 49.53 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49cb342e-cb61-4e9b-961c-681092858d07)
-    (property "Reference" "J1" (at 38.1 162.56 0)
+    (property "Reference" "J2" (at 38.1 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_ARM_JTAG_SWD_10" (at 38.1 165.1 0)
@@ -1341,7 +1341,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1350,7 +1350,7 @@
   (symbol (lib_id "Device:R") (at 166.37 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6aede462-b91c-4b47-9ca9-8e3454ab24a9)
-    (property "Reference" "R5" (at 161.29 53.34 90)
+    (property "Reference" "R10" (at 161.29 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 171.45 53.34 90)
@@ -1367,7 +1367,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "R5") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1376,7 +1376,7 @@
   (symbol (lib_id "Device:R") (at 115.57 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c9b3b77-6a8b-48fa-9a46-421bb6c94290)
-    (property "Reference" "R6" (at 110.49 73.66 90)
+    (property "Reference" "R3" (at 110.49 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 120.65 73.66 90)
@@ -1393,7 +1393,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "R6") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1402,7 +1402,7 @@
   (symbol (lib_id "Device:R") (at 115.57 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 704fc011-b0f8-43ba-b795-5b06ca27f3df)
-    (property "Reference" "R8" (at 110.49 88.9 90)
+    (property "Reference" "R5" (at 110.49 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 120.65 88.9 90)
@@ -1419,7 +1419,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1428,7 +1428,7 @@
   (symbol (lib_id "Device:R") (at 166.37 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 766bfb95-ed03-4537-84f2-bcb66f31a4cf)
-    (property "Reference" "R2" (at 161.29 45.72 90)
+    (property "Reference" "R7" (at 161.29 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 171.45 45.72 90)
@@ -1445,7 +1445,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "R2") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1454,7 +1454,7 @@
   (symbol (lib_id "MCU_ST_STM32F0:STM32F030C8Tx") (at 139.7 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 767b402f-b41e-4675-859b-803a8f27bd7a)
-    (property "Reference" "U1" (at 144.1959 120.65 0)
+    (property "Reference" "U2" (at 144.1959 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32F030C8Tx" (at 144.1959 123.19 0)
@@ -1517,7 +1517,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -1526,7 +1526,7 @@
   (symbol (lib_id "Device:R") (at 115.57 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8857870c-dd5f-4e77-9a65-426fc113ece1)
-    (property "Reference" "R9" (at 110.49 96.52 90)
+    (property "Reference" "R6" (at 110.49 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 120.65 96.52 90)
@@ -1543,7 +1543,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1552,7 +1552,7 @@
   (symbol (lib_id "power:+3.3V") (at 238.76 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91512bcb-4c71-45ab-84a2-bc8f80b8ea90)
-    (property "Reference" "#PWR03" (at 238.76 29.21 0)
+    (property "Reference" "#PWR011" (at 238.76 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 238.76 20.32 0)
@@ -1568,7 +1568,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1577,7 +1577,7 @@
   (symbol (lib_id "Device:R") (at 166.37 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f801bca-9ad3-4eaa-a262-346c9b6cceb4)
-    (property "Reference" "R3" (at 161.29 48.26 90)
+    (property "Reference" "R8" (at 161.29 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 171.45 48.26 90)
@@ -1594,7 +1594,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "R3") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1603,7 +1603,7 @@
   (symbol (lib_id "Device:C") (at 247.65 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0413c4d-f8a4-48d8-9bd1-5714710cd8e2)
-    (property "Reference" "C4" (at 245.11 31.75 0)
+    (property "Reference" "C7" (at 245.11 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 248.92 36.83 0)
@@ -1620,7 +1620,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "C4") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1629,7 +1629,7 @@
   (symbol (lib_id "Device:C") (at 256.54 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba80731e-adc6-491a-ade7-046f98453a21)
-    (property "Reference" "C5" (at 252.73 31.75 0)
+    (property "Reference" "C8" (at 252.73 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 257.81 36.83 0)
@@ -1646,19 +1646,19 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "C5") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "power:+3.3V") (at 140.97 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid bbcf48f2-a6fa-4bef-9803-03b9185d5fb9)
-    (property "Reference" "#PWR01" (at 140.97 36.83 0)
+    (property "Reference" "#PWR09" (at 140.97 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 140.97 27.94 0)
+    (property "Value" "+3.3V" (at 140.97 26.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 140.97 33.02 0)
@@ -1671,7 +1671,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1680,7 +1680,7 @@
   (symbol (lib_id "Device:C") (at 238.76 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e45de9b5-840c-45ef-a685-f8049d933c48)
-    (property "Reference" "C3" (at 234.95 31.75 0)
+    (property "Reference" "C6" (at 234.95 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 240.03 36.83 0)
@@ -1697,7 +1697,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1706,7 +1706,7 @@
   (symbol (lib_id "power:GND") (at 88.9 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e766b938-b253-4892-a95f-f1de577f9273)
-    (property "Reference" "#PWR07" (at 88.9 64.77 0)
+    (property "Reference" "#PWR08" (at 88.9 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 63.5 0)
@@ -1722,7 +1722,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1731,7 +1731,7 @@
   (symbol (lib_id "power:+3.3V") (at 49.53 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e88bea15-54b4-4438-911d-b2290a69253b)
-    (property "Reference" "#PWR05" (at 49.53 148.59 0)
+    (property "Reference" "#PWR07" (at 49.53 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 49.53 139.7 0)
@@ -1747,7 +1747,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1756,7 +1756,7 @@
   (symbol (lib_id "Device:R") (at 166.37 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9d79039-53f0-4f96-9ce7-5f30236cb825)
-    (property "Reference" "R4" (at 161.29 50.8 90)
+    (property "Reference" "R9" (at 161.29 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 171.45 50.8 90)
@@ -1773,7 +1773,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "R4") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1782,7 +1782,7 @@
   (symbol (lib_id "power:GND") (at 140.97 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5d13d71-e963-4e89-af5f-8791b9846ac8)
-    (property "Reference" "#PWR02" (at 140.97 133.35 0)
+    (property "Reference" "#PWR010" (at 140.97 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 132.08 0)
@@ -1798,7 +1798,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1807,7 +1807,7 @@
   (symbol (lib_id "Device:C") (at 220.98 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd89364a-e1be-4f4f-a04f-e0d59fad4514)
-    (property "Reference" "C1" (at 218.44 31.75 0)
+    (property "Reference" "C4" (at 218.44 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 222.25 36.83 0)
@@ -1824,7 +1824,7 @@
     (instances
       (project "minimouse"
         (path "/d8fa4cba-2469-4231-847f-065b6b829f44/b5d7e952-00af-4b6f-924a-ee43c62726d2"
-          (reference "C1") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
